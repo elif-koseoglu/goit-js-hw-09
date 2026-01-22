@@ -16,3 +16,15 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+/* SimpleLightbox caption görünürlüğü */
+/* SimpleLightbox caption görünürlüğü */
+.sl-wrapper .sl-caption {
+  font-size: 16px;
+  line-height: 1.4;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 16px;
+  max-width: 100%;
+  text-align: center;
+}
