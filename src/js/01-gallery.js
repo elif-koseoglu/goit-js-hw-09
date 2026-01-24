@@ -22,4 +22,10 @@ const markup = images
 galleryEl.innerHTML = markup;
 console.log("[gallery] links count:", document.querySelectorAll(".gallery a").length);
 
-// Tıklama gerçekten geliyor mu? (Normal linke mi gidiyor göreceğiz)
+const lightbox = new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionPosition: "bottom",
+  captionDelay: 250,
+});
+
+console.log("[gallery] lightbox initialized:", lightbox);
